@@ -1,0 +1,14 @@
+package %package%;
+
+import net.egork.chelper.task.Test;
+import net.egork.chelper.tester.TestCase;
+
+import java.utils.Collection;
+import java.utils.Collections;
+
+public class %TestCaseClass% {
+    @TestCase
+    public Collection<Test> createTests() {
+        return Collections.emptyList();
+    }
+}
